@@ -8,7 +8,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -58,6 +58,7 @@ Very dark blackish blue: hsl(219, 29%, 14%) */
 /* /////////////////////////////////////////// */
 .testimonial-section {
   background-color: aliceblue;
+  padding: 10px;
 }
 
 .testimonial-grid {
