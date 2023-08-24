@@ -64,6 +64,9 @@ Very dark blackish blue: hsl(219, 29%, 14%) */
   background-color: aliceblue;
   padding: 10px;
 }
+.primary-heading {
+  color: black;
+}
 
 .testimonial-grid {
   display: grid;

@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className='testimonial-section'>
-      <h1>Testimonial Section</h1>
+      <h1 className='primary-heading'>Testimonial Section</h1>
       <div className='testimonial-grid'>
 
         {/* </div> */}
