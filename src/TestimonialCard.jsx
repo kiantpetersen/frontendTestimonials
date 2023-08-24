@@ -7,7 +7,7 @@ function TestimonialCard({ testimonialData }) {
                 <img className='testimonial-profile-img' src={testimonialData.image} alt='testimonial_profile_image' />
             </div>
             <div className='testimonial-header-textbox'>
-                <p className='testimonial-author testimonial-header-text'>{testimonialData.name}</p>
+                <p className=' testimonial-header-text testimonial-author'>{testimonialData.name}</p>
                 <p className='testimonial-header-text'>Verified Graduate</p>
             </div>
         </div>

@@ -11,21 +11,23 @@
   }
   .testimonial-card:first-child {
     background-color: var(--voilet-color);
-    grid-column: 1 / span 1;
+    grid-column: 1;
     grid-row: 1/1;
     color: var(--light-color);
   }
   .testimonial-card:nth-child(3) {
-    grid-row: 3/1; /* 5 */
+    grid-row: 3; /* 5 */
     grid-column: 1 / span 1;
     /* background-color: red; */
   }
   .testimonial-card:nth-child(2) {
     background-color: var(--grey-color);
     color: var(--light-color);
+    grid-row: 2;
+    grid-column: 1 / span 1;
   }
   .testimonial-card:nth-child(5) {
-    grid-row: 5 / span 1; /* 5 */
+    grid-row: 5; /* 5 */
     grid-column: 1 / span 1;
     background-color: var(--dark-color);
     color: var(--light-color);
